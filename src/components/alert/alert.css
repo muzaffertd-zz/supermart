@@ -1,0 +1,28 @@
+.alert-box{
+    position: fixed;
+    right: 20px;
+    top:100px;
+    z-index: 10;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity ease 0.4s;
+    
+}
+.alert-box.active{
+    animation: autoHide 3s ease forwards;
+}
+
+@keyframes autoHide {
+    0%{
+        opacity: 0;
+    }
+    20%{
+        opacity: 1;
+    }
+    80%{
+        opacity:1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

@@ -1,0 +1,21 @@
+.qty-block{
+    white-space: nowrap;
+}
+
+.qty-block button{
+    background: none;
+    border: 0;
+    min-width: 20px;
+}
+.qty-block > * {
+    display: inline-block;
+}
+.qty-block button{
+    font-size: 20px;
+    font-weight: bold;
+}
+.qty-block .qty-cont{
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
